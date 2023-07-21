@@ -10,11 +10,11 @@ type TreeNode struct {
 
 type Tree struct {
 	Root *TreeNode
-	Sum []int
+	Sum  []int
 }
 
 func NewTree(root *TreeNode) Tree {
-	return Tree{ Root: root }
+	return Tree{Root: root}
 }
 
 func (tree *Tree) preorder(node *TreeNode) {
@@ -34,4 +34,3 @@ func preorderTraversal(root *TreeNode) []int {
 	tree.Preorder()
 	return tree.Sum
 }
-
