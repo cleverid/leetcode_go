@@ -1,8 +1,8 @@
 package etudes
 
 import (
-	"testing"
 	"fmt"
+	"testing"
 )
 
 func TestStringIter(t *testing.T) {
